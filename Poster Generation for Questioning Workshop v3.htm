@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dripmind | The Art of Raising Questions Workshop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&family=Inter:wght@400,500,600,700,800&display=swap');
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: #f0f4f8;
+            padding: 15px;
+            color: #1f2937;
+        }
+        .wechat-poster {
+            width: 100%;
+            max-width: 420px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: 0 15px 45px rgba(0,0,0,0.1);
+        }
+        .dm-gradient {
+            background: linear-gradient(135deg, #1e40af 0%, #7e22ce 50%, #db2777 100%);
+        }
+        .dm-text-gradient {
+            background: linear-gradient(135deg, #2563eb, #9333ea);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .watercolor-bg {
+            background-image: radial-gradient(circle at 10% 20%, rgba(37,99,235,0.03) 0%, transparent 40%),
+                              radial-gradient(circle at 90% 80%, rgba(219,39,119,0.03) 0%, transparent 40%);
+        }
+        .page-break {
+            height: 1px;
+            background: repeating-linear-gradient(to right, #e2e8f0, #e2e8f0 5px, transparent 5px, transparent 10px);
+            margin: 20px 40px;
+            position: relative;
+        }
+        .page-break::after {
+            content: "SPEAKER BIO";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            padding: 0 15px;
+            font-size: 9px;
+            font-weight: 900;
+            color: #94a3b8;
+            letter-spacing: 0.2em;
+        }
+    </style>
+</head>
+<body class="flex flex-col items-center">
+
+<div class="wechat-poster watercolor-bg">
+    <!-- PAGE 1: WORKSHOP OVERVIEW -->
+    <section id="page-1">
+        <div class="dm-gradient text-white px-6 py-8 text-center relative">
+            <div class="absolute -right-4 -top-4 w-24 h-24 bg-white/10 rounded-full blur-2xl"></div>
+            <div class="relative z-10 flex flex-col items-center">
+                <!-- DM Logo -->
+                <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-lg mb-3">
+                    <span class="text-lg font-black dm-text-gradient">DM</span>
+                </div>
+                
+                <span class="text-[10px] font-bold tracking-widest uppercase border border-white/30 px-3 py-1 rounded-full bg-white/10">Pre-Camp Workshop</span>
+                <h1 class="text-3xl font-black mt-3 leading-tight">The Art of<br>Raising Questions</h1>
+                <p class="text-[11px] opacity-90 mt-1 italic font-light">开启好奇心的力量 · 提问的艺术</p>
+            </div>
+        </div>
+
+        <div class="mx-6 -mt-6 relative z-20 bg-blue-50 rounded-2xl p-4 text-gray-800 border border-blue-100 shadow-lg">
+            <div class="flex items-center justify-between gap-4 border-b border-blue-200/50 pb-3 mb-3">
+                <div>
+                    <p class="text-[10px] text-blue-600 font-bold uppercase tracking-widest">Date & Time</p>
+                    <p class="text-xs font-bold text-gray-900">25 May 2026 | 3-5 PM</p>
+                </div>
+                <div class="text-right">
+                    <p class="text-[10px] text-blue-600 font-bold uppercase tracking-widest">Venue</p>
+                    <p class="text-xs font-bold text-gray-900">Kindhood, 3/F, The Pulse</p>
+                    <p class="text-[9px] text-gray-500">28 Beach Road, Repulse Bay</p>
+                </div>
+            </div>
+            
+            <div class="flex items-center justify-between mb-3">
+                <div>
+                    <p class="text-[10px] text-blue-600 font-bold uppercase">Target Audience</p>
+                    <p class="text-[10px] font-bold text-gray-900">Ages 10+ | Bilingual</p>
+                </div>
+                <div class="bg-indigo-100 px-2 py-1 rounded-md">
+                    <p class="text-[9px] text-indigo-700 font-bold italic">Self-Discovery Journey</p>
+                </div>
+            </div>
+
+            <!-- Enhanced Marketing Reframing -->
+            <div class="pt-3 border-t border-blue-200/50 text-center flex flex-col items-center">
+                <div class="inline-block bg-green-600 text-white text-[10px] font-black px-4 py-1.5 rounded-full uppercase tracking-widest mb-2 shadow-sm">
+                    Complimentary Workshop Admission
+                </div>
+                <div class="bg-white/60 p-2 rounded-lg border border-blue-100/50 w-full">
+                    <p class="text-[9px] text-gray-500 leading-tight">
+                        <span class="font-bold text-gray-700">Kind Reminder:</span><br>
+                        Minimal F&B spending at Kindhood of <span class="font-bold text-blue-700">HK$60</span> per participant.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="px-6 py-6 space-y-3">
+            <div class="flex items-center gap-2 mb-1">
+                <div class="h-4 w-1 dm-gradient rounded-full"></div>
+                <h3 class="text-xs font-black text-gray-800 uppercase tracking-wide">Workshop Highlights / 工作坊亮点</h3>
+            </div>
+            <div class="flex items-start gap-3 bg-blue-50/50 p-3 rounded-xl border border-blue-100">
+                <i class="fas fa-brain text-blue-500 text-sm mt-1"></i>
+                <div>
+                    <p class="text-[11px] font-bold text-blue-800">Think Like a Journalist</p>
+                    <p class="text-[10px] text-gray-600">Master the structured investigative reporting logic from Northwestern University Medill.</p>
+                </div>
+            </div>
+            <div class="flex items-start gap-3 bg-purple-50/50 p-3 rounded-xl border border-purple-100">
+                <i class="fas fa-search text-purple-500 text-sm mt-1"></i>
+                <div>
+                    <p class="text-[11px] font-bold text-purple-800">Business Detective Skills</p>
+                    <p class="text-[10px] text-gray-600">Extract deep insights from conversations with CEOs and entrepreneurs.</p>
+                </div>
+            </div>
+            <div class="flex items-start gap-3 bg-pink-50/50 p-3 rounded-xl border border-pink-100">
+                <i class="fas fa-microphone text-pink-500 text-sm mt-1"></i>
+                <div>
+                    <p class="text-[11px] font-bold text-pink-800">Interactive Live Session</p>
+                    <p class="text-[10px] text-gray-600">Hands-on interview practice with feedback from an award-winning producer.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center pb-4">
+            <p class="text-[10px] text-gray-400 italic">Scroll for Bio ↓</p>
+        </div>
+    </section>
+
+    <div class="page-break"></div>
+
+    <!-- PAGE 2: SPEAKER BIOGRAPHY -->
+    <section id="page-2" class="pb-10">
+        <div class="px-6 py-4">
+            <div class="flex items-center gap-4 mb-6">
+                <div class="w-20 h-20 bg-gray-100 rounded-full flex-shrink-0 border-2 border-purple-200 overflow-hidden shadow-sm">
+                    <svg class="w-full h-full text-gray-300 translate-y-2" fill="currentColor" viewBox="0 0 20 20"><path d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"/></svg>
+                </div>
+                <div class="min-w-0">
+                    <h2 class="text-xl font-black text-gray-900 leading-tight mb-1">Zongwei LI</h2>
+                    <p class="text-[10px] text-blue-600 font-bold uppercase tracking-tight mb-2">Northwestern Medill • Fudan University</p>
+                    <div class="inline-block bg-purple-50/80 px-2.5 py-1.5 rounded-lg border-l-2 border-purple-400">
+                        <p class="text-[10px] font-black dm-text-gradient leading-tight">
+                            Seasoned Investigative Reporter<br>
+                            Documentary Director • Editor • Writer
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-gray-50 rounded-2xl p-5 border border-gray-100 mb-6 shadow-sm">
+                <div class="flex items-center gap-2 mb-4">
+                    <i class="fas fa-file-alt text-purple-500 text-xs"></i>
+                    <span class="text-[10px] font-black uppercase text-gray-500 tracking-widest">Full Biography</span>
+                </div>
+                <div class="text-[11px] leading-relaxed text-gray-700 space-y-4">
+                    <p>
+                        Zongwei Li is an accomplished media professional who earned her <strong>Master of Science in Journalism from Northwestern University’s Medill School</strong>, where she specialized in Business Reporting. She also holds a <strong>Bachelor of Arts in Journalism from Fudan University</strong>. A trilingual communicator, she is fluent in Mandarin, English, and Cantonese.
+                    </p>
+                    <p>
+                        Zongwei currently holds a leadership role at a leading university in Hong Kong, where she interviews prominent entrepreneurs and manages strategic content delivery. 
+                    </p>
+                    <p>
+                        Her extensive career as a director and producer includes leading the Shanghai Production Center for <strong>Houghton Street Media</strong> and overseeing major projects like the award-winning series <em>Forget Me Not Cafe</em>, which reached <strong>over one billion views</strong>.
+                    </p>
+                    <p>
+                        This creative leadership is grounded in a high-caliber journalism background, featuring investigative work for <strong>Medill Watchdog</strong> in collaboration with the <strong>Chicago Tribune</strong> and business-focused reporting for <strong>Shanghai Media Group</strong> (SMG) reaching global audiences through <strong>CNN World</strong>.
+                    </p>
+                </div>
+            </div>
+
+            <!-- RSVP Section with QR -->
+            <div class="bg-blue-50/70 rounded-2xl p-6 text-center border border-blue-100 shadow-sm">
+                <div class="flex justify-center mb-4">
+                    <div class="bg-white p-2 rounded-xl shadow-md border border-blue-100 flex items-center justify-center w-32 h-32">
+                        <svg shape-rendering="geometricPrecision" xmlns="http://www.w3.org/2000/svg" class="w-full h-full" viewBox="0 0 29 29" preserveAspectRatio="xMidYMid">
+                            <rect fill="#FFFFFF" width="100%" height="100%"/>
+                            <g fill="#1e3a8a">
+                                <path d="M11 2 m0 0h1v1h-1z M12 2 m0 0h1v1h-1z M13 2 m0 0h1v1h-1z M15 2 m0 0h1v1h-1z M16 2 m0 0h1v1h-1z M17 2 m0 0h1v1h-1z M11 3 m0 0h1v1h-1z M12 3 m0 0h1v1h-1z M13 3 m0 0h1v1h-1z M15 3 m0 0h1v1h-1z M16 3 m0 0h1v1h-1z M17 3 m0 0h1v1h-1z M18 3 m0 0h1v1h-1z M10 4 m0 0h1v1h-1z M15 4 m0 0h1v1h-1z M17 4 m0 0h1v1h-1z M10 5 m0 0h1v1h-1z M13 5 m0 0h1v1h-1z M16 5 m0 0h1v1h-1z M17 5 m0 0h1v1h-1z M10 6 m0 0h1v1h-1z M11 6 m0 0h1v1h-1z M13 6 m0 0h1v1h-1z M17 6 m0 0h1v1h-1z M18 6 m0 0h1v1h-1z M10 7 m0 0h1v1h-1z M11 7 m0 0h1v1h-1z M12 7 m0 0h1v1h-1z M13 7 m0 0h1v1h-1z M10 8 m0 0h1v1h-1z M12 8 m0 0h1v1h-1z M14 8 m0 0h1v1h-1z M16 8 m0 0h1v1h-1z M18 8 m0 0h1v1h-1z M10 9 m0 0h1v1h-1z M14 9 m0 0h1v1h-1z M16 9 m0 0h1v1h-1z M18 9 m0 0h1v1h-1z M2 10 m0 0h1v1h-1z M4 10 m0 0h1v1h-1z M5 10 m0 0h1v1h-1z M6 10 m0 0h1v1h-1z M7 10 m0 0h1v1h-1z M8 10 m0 0h1v1h-1z M11 10 m0 0h1v1h-1z M12 10 m0 0h1v1h-1z M14 10 m0 0h1v1h-1z M20 10 m0 0h1v1h-1z M21 10 m0 0h1v1h-1z M22 10 m0 0h1v1h-1z M23 10 m0 0h1v1h-1z M24 10 m0 0h1v1h-1z M2 11 m0 0h1v1h-1z M3 11 m0 0h1v1h-1z M5 11 m0 0h1v1h-1z M6 11 m0 0h1v1h-1z M7 11 m0 0h1v1h-1z M10 11 m0 0h1v1h-1z M11 11 m0 0h1v1h-1z M13 11 m0 0h1v1h-1z M14 11 m0 0h1v1h-1z M15 11 m0 0h1v1h-1z M16 11 m0 0h1v1h-1z M17 11 m0 0h1v1h-1z M19 11 m0 0h1v1h-1z M20 11 m0 0h1v1h-1z M21 11 m0 0h1v1h-1z M25 11 m0 0h1v1h-1z M2 12 m0 0h1v1h-1z M4 12 m0 0h1v1h-1z M8 12 m0 0h1v1h-1z M10 12 m0 0h1v1h-1z M12 12 m0 0h1v1h-1z M15 12 m0 0h1v1h-1z M16 12 m0 0h1v1h-1z M17 12 m0 0h1v1h-1z M18 12 m0 0h1v1h-1z M19 12 m0 0h1v1h-1z M20 12 m0 0h1v1h-1z M21 12 m0 0h1v1h-1z M22 12 m0 0h1v1h-1z M23 12 m0 0h1v1h-1z M25 12 m0 0h1v1h-1z M26 12 m0 0h1v1h-1z M2 13 m0 0h1v1h-1z M3 13 m0 0h1v1h-1z M4 13 m0 0h1v1h-1z M7 13 m0 0h1v1h-1z M9 13 m0 0h1v1h-1z M11 13 m0 0h1v1h-1z M12 13 m0 0h1v1h-1z M14 13 m0 0h1v1h-1z M15 13 m0 0h1v1h-1z M17 13 m0 0h1v1h-1z M21 13 m0 0h1v1h-1z M22 13 m0 0h1v1h-1z M2 14 m0 0h1v1h-1z M3 14 m0 0h1v1h-1z M4 14 m0 0h1v1h-1z M5 14 m0 0h1v1h-1z M8 14 m0 0h1v1h-1z M11 14 m0 0h1v1h-1z M13 14 m0 0h1v1h-1z M14 14 m0 0h1v1h-1z M16 14 m0 0h1v1h-1z M18 14 m0 0h1v1h-1z M19 14 m0 0h1v1h-1z M20 14 m0 0h1v1h-1z M22 14 m0 0h1v1h-1z M23 14 m0 0h1v1h-1z M24 14 m0 0h1v1h-1z M26 14 m0 0h1v1h-1z M2 15 m0 0h1v1h-1z M11 15 m0 0h1v1h-1z M12 15 m0 0h1v1h-1z M17 15 m0 0h1v1h-1z M18 15 m0 0h1v1h-1z M24 15 m0 0h1v1h-1z M25 15 m0 0h1v1h-1z M2 16 m0 0h1v1h-1z M4 16 m0 0h1v1h-1z M8 16 m0 0h1v1h-1z M10 16 m0 0h1v1h-1z M11 16 m0 0h1v1h-1z M12 16 m0 0h1v1h-1z M13 16 m0 0h1v1h-1z M14 16 m0 0h1v1h-1z M17 16 m0 0h1v1h-1z M18 16 m0 0h1v1h-1z M19 16 m0 0h1v1h-1z M20 16 m0 0h1v1h-1z M21 16 m0 0h1v1h-1z M22 16 m0 0h1v1h-1z M24 16 m0 0h1v1h-1z M25 16 m0 0h1v1h-1z M26 16 m0 0h1v1h-1z M2 17 m0 0h1v1h-1z M5 17 m0 0h1v1h-1z M13 17 m0 0h1v1h-1z M16 17 m0 0h1v1h-1z M17 17 m0 0h1v1h-1z M19 17 m0 0h1v1h-1z M20 17 m0 0h1v1h-1z M21 17 m0 0h1v1h-1z M23 17 m0 0h1v1h-1z M25 17 m0 0h1v1h-1z M26 17 m0 0h1v1h-1z M2 18 m0 0h1v1h-1z M4 18 m0 0h1v1h-1z M6 18 m0 0h1v1h-1z M7 18 m0 0h1v1h-1z M8 18 m0 0h1v1h-1z M9 18 m0 0h1v1h-1z M10 18 m0 0h1v1h-1z M11 18 m0 0h1v1h-1z M12 18 m0 0h1v1h-1z M13 18 m0 0h1v1h-1z M17 18 m0 0h1v1h-1z M18 18 m0 0h1v1h-1z M19 18 m0 0h1v1h-1z M20 18 m0 0h1v1h-1z M21 18 m0 0h1v1h-1z M22 18 m0 0h1v1h-1z M23 18 m0 0h1v1h-1z M24 18 m0 0h1v1h-1z M26 18 m0 0h1v1h-1z M10 19 m0 0h1v1h-1z M14 19 m0 0h1v1h-1z M15 19 m0 0h1v1h-1z M16 19 m0 0h1v1h-1z M18 19 m0 0h1v1h-1z M22 19 m0 0h1v1h-1z M24 19 m0 0h1v1h-1z M25 19 m0 0h1v1h-1z M11 20 m0 0h1v1h-1z M12 20 m0 0h1v1h-1z M15 20 m0 0h1v1h-1z M16 20 m0 0h1v1h-1z M17 20 m0 0h1v1h-1z M18 20 m0 0h1v1h-1z M20 20 m0 0h1v1h-1z M22 20 m0 0h1v1h-1z M23 20 m0 0h1v1h-1z M24 20 m0 0h1v1h-1z M25 20 m0 0h1v1h-1z M26 20 m0 0h1v1h-1z M10 21 m0 0h1v1h-1z M12 21 m0 0h1v1h-1z M14 21 m0 0h1v1h-1z M15 21 m0 0h1v1h-1z M18 21 m0 0h1v1h-1z M22 21 m0 0h1v1h-1z M25 21 m0 0h1v1h-1z M10 22 m0 0h1v1h-1z M11 22 m0 0h1v1h-1z M14 22 m0 0h1v1h-1z M16 22 m0 0h1v1h-1z M17 22 m0 0h1v1h-1z M18 22 m0 0h1v1h-1z M19 22 m0 0h1v1h-1z M20 22 m0 0h1v1h-1z M21 22 m0 0h1v1h-1z M22 22 m0 0h1v1h-1z M23 22 m0 0h1v1h-1z M24 22 m0 0h1v1h-1z M25 22 m0 0h1v1h-1z M10 23 m0 0h1v1h-1z M17 23 m0 0h1v1h-1z M18 23 m0 0h1v1h-1z M19 23 m0 0h1v1h-1z M20 23 m0 0h1v1h-1z M22 23 m0 0h1v1h-1z M24 23 m0 0h1v1h-1z M26 23 m0 0h1v1h-1z M10 24 m0 0h1v1h-1z M12 24 m0 0h1v1h-1z M13 24 m0 0h1v1h-1z M14 24 m0 0h1v1h-1z M17 24 m0 0h1v1h-1z M19 24 m0 0h1v1h-1z M21 24 m0 0h1v1h-1z M24 24 m0 0h1v1h-1z M26 24 m0 0h1v1h-1z M11 25 h3v1h-3z M16 25 h2v1h-2z M20 25 h1v1h-1z M22 25 h1v1h-1z M26 25 h1v1h-1z M10 26 h4v1h-4z M20 26 h1v1h-1z M24 26 h3v1h-3z"/>
+                                <path d="M2 2v7h7V2H2zm5.85 5.85H3.15V3.15h4.7v4.7zM2 20v7h7v-7H2zm5.85 5.85H3.15v-4.7h4.7v4.7zM20 2v7h7V2h-7zm5.85 5.85h-4.7V3.15h4.7v4.7z"/>
+                                <path d="M4.3 4.3h2.4v2.4H4.3zM4.3 22.3h2.4v2.4H4.3zM22.3 4.3h2.4v2.4h-2.4z"/>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+                <p class="text-xs font-black dm-text-gradient uppercase tracking-widest">Scan to RSVP</p>
+                <p class="text-[9px] text-gray-400 mt-2">Dripmind · Beijing Junior Investment Camp 2026</p>
+                <div class="mt-4 flex justify-center gap-1">
+                    <div class="h-1 w-8 bg-blue-400 rounded-full"></div>
+                    <div class="h-1 w-2 bg-purple-400 rounded-full"></div>
+                    <div class="h-1 w-1 bg-pink-400 rounded-full"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
